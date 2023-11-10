@@ -1,0 +1,7 @@
+{
+    "optional union none": {
+        "prefix": "oun",
+        "body": "${1:type} | None = None",
+        "description": "type hint an optional argument"
+    }
+}
