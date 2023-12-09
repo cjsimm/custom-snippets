@@ -3,5 +3,17 @@
         "prefix": "oun",
         "body": "${1:type} | None = None",
         "description": "type hint an optional argument"
+    },
+    "arrange act assert": {
+        "prefix": "aaa",
+        "body": [
+            "#Arrange",
+            "${1:pass}",
+            "#Act",
+            "${2:pass}",
+            "#Assert",
+            "${3:pass}"
+        ],
+        "description": "Basic structure guide for a unit test"
     }
 }
