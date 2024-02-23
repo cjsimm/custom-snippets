@@ -7,11 +7,11 @@
     "arrange act assert": {
         "prefix": "aaa",
         "body": [
-            "#Arrange",
+            "# Arrange",
             "${1:pass}",
-            "#Act",
+            "# Act",
             "${2:pass}",
-            "#Assert",
+            "# Assert",
             "${3:pass}"
         ],
         "description": "Basic structure guide for a unit test"
