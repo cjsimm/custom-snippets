@@ -21,7 +21,7 @@
         "body": [
             "logging.debug('------------------------------------')",
             "logging.debug(${1:...})}",
-            "logging.debug('------------------------------------')",
+            "logging.debug('------------------------------------')"
         ],
         "description": "Logging debug message wrapped in hyphenated logging messages for easy recognition when reading output"
     }
